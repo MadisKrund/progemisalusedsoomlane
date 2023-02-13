@@ -1,0 +1,18 @@
+﻿using Microsoft.VisualBasic;
+using System;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] nimed = { "Anton Tammsaare", "Lydia Koidula", "August Gailit", "Betti Alver" };
+           
+            foreach (string i in nimed)
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
+}
